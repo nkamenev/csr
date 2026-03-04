@@ -15,7 +15,11 @@ via binary search over sorted entities.
 - Lookup complexity: `O(log |V|)` for entity search, `O(1)` for slice access
 - Zero-copy neighbor slices (read-only)
 
----
+## Installation
+
+```bash
+go get github.com/nkamenev/csr
+```
 
 ## Example
 
@@ -25,7 +29,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/your/module/csr"
+	"github.com/nkamenev/csr"
 )
 
 func main() {
